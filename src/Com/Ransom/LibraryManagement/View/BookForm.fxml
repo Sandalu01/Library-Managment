@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="contextbook" prefHeight="559.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Com.Ransom.LibraryManagement.Controller.BookFormController">
+   <children>
+      <Label layoutX="138.0" layoutY="14.0" prefHeight="45.0" prefWidth="85.0" text="Books" textFill="#3f05c6">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtbookId" layoutX="44.0" layoutY="80.0" prefHeight="38.0" prefWidth="278.0" promptText="Book  Id" />
+      <TextField fx:id="txtbookname" layoutX="44.0" layoutY="139.0" prefHeight="38.0" prefWidth="278.0" promptText="Book name" />
+      <TextField fx:id="txtmembername" layoutX="44.0" layoutY="194.0" prefHeight="38.0" prefWidth="278.0" promptText="Member name" />
+      <TextField fx:id="txtDate" layoutX="44.0" layoutY="249.0" prefHeight="38.0" prefWidth="278.0" promptText="Date" />
+      <Button layoutX="138.0" layoutY="389.0" mnemonicParsing="false" onAction="#SubmitOnAction" text="Submit" textFill="#020de4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txttimepieroed" layoutX="42.0" layoutY="309.0" prefHeight="38.0" prefWidth="278.0" promptText="Time Piroed" />
+      <ImageView fitHeight="550.0" fitWidth="406.0" layoutX="347.0" layoutY="3.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/booook.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="14.0" layoutY="67.0" prefHeight="2.0" prefWidth="332.0" />
+      <Button layoutX="104.0" layoutY="463.0" mnemonicParsing="false" onAction="#BacktoOnAction" text="Back to Dashboard" textFill="#d31212">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

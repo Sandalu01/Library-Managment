@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="membercontext" prefHeight="612.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Com.Ransom.LibraryManagement.Controller.MemberFormController">
+   <children>
+      <Label layoutX="278.0" layoutY="22.0" prefHeight="45.0" prefWidth="282.0" text="Memeber info Form" textFill="#3d0dd0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="10.0" layoutY="76.0" prefHeight="4.0" prefWidth="818.0" />
+      <TextField fx:id="txtname" layoutX="68.0" layoutY="111.0" prefHeight="31.0" prefWidth="269.0" promptText="Name" />
+      <TextField fx:id="txtemail" layoutX="68.0" layoutY="169.0" prefHeight="31.0" prefWidth="269.0" promptText="E-mail" />
+      <TextField fx:id="txtphone" layoutX="68.0" layoutY="221.0" prefHeight="31.0" prefWidth="269.0" promptText="Phone" />
+      <TextField fx:id="txtaddress" layoutX="67.0" layoutY="275.0" prefHeight="31.0" prefWidth="276.0" promptText="Address" />
+      <TextField fx:id="txtcity" layoutX="66.0" layoutY="330.0" prefHeight="31.0" prefWidth="276.0" promptText="City" />
+      <ImageView fitHeight="533.0" fitWidth="431.0" layoutX="405.0" layoutY="79.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/memeber.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="143.0" layoutY="388.0" mnemonicParsing="false" onAction="#SubmitOnAction" prefHeight="31.0" prefWidth="89.0" text="Submit" textFill="#2f05e8">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="119.0" layoutY="491.0" mnemonicParsing="false" onAction="#BacktoOnACtion" prefHeight="38.0" prefWidth="137.0" text="Back to Home" textFill="#eb0404">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="176.0" layoutY="450.0" text="OR">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

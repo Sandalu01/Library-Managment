@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="newscontext" prefHeight="583.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Com.Ransom.LibraryManagement.Controller.NewsPapersFormController">
+   <children>
+      <Label layoutX="266.0" layoutY="14.0" prefHeight="46.0" prefWidth="185.0" text="News Papers" textFill="#2f0fe8">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Separator layoutX="73.0" layoutY="62.0" prefHeight="0.0" prefWidth="579.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="22.0" layoutY="84.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/myimages.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="209.0" layoutY="84.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/sunday.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="599.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/new.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="137.0" layoutX="396.0" layoutY="84.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/daly.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="68.0" layoutY="255.0" mnemonicParsing="false" text="select" textFill="#2b03dd" />
+      <Button layoutX="255.0" layoutY="256.0" mnemonicParsing="false" text="select" textFill="#280aee" />
+      <Button layoutX="430.0" layoutY="255.0" mnemonicParsing="false" text="select" textFill="#6019ee" />
+      <Button layoutX="623.0" layoutY="256.0" mnemonicParsing="false" text="select" textFill="#540cda" />
+      <ImageView fitHeight="270.0" fitWidth="757.0" layoutX="7.0" layoutY="309.0" opacity="0.75" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/lib.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="258.0" layoutY="396.0" mnemonicParsing="false" onAction="#backtoOnAction" text="Back to dashboard" textFill="#e40808">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

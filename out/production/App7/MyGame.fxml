@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyGameController">
+   <children>
+      <Label layoutX="42.0" layoutY="29.0" text="Select  your Gender">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="35.0" layoutY="103.0" mnemonicParsing="false" selected="true" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="Male" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="153.0" layoutY="103.0" mnemonicParsing="false" text="Female">
+         <toggleGroup>
+            <ToggleGroup fx:id="Female" />
+         </toggleGroup>
+      </RadioButton>
+      <Separator layoutY="150.0" prefHeight="5.0" prefWidth="600.0" />
+      <Button layoutX="33.0" layoutY="179.0" mnemonicParsing="false" text="Printdata">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
